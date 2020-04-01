@@ -1,3 +1,135 @@
+@charset "UTF-8";
+
+body{
+	background: #FFFFFF;
+}
+
+
+
 p{
-	color: blue;
+	color: black;
+	text-indent: 30px;
+	text-align: justify;
+}
+
+/*Formatacao de imagens com referencias*/
+figure.confiaemdeus{
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+	width: 85%;
+	height: 60%;
+}
+figure.fe{
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+	width: 85%;
+	height: 60%;
+}
+figure.perdao{
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+	width: 85%;
+	height: 60%;
+}
+figure.oracao{
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+	width: 85%;
+	height: 60%;
+}
+
+
+figure.confiaemdeus img{
+	width: 100%;
+	height: 100%;
+}
+figure.fe img{
+	width: 100%;
+	height: 100%;
+}
+figure.perdao img{
+	width: 100%;
+	height: 100%;
+}
+figure.oracao img{
+	width: 100%;
+	height: 100%;
+}
+/*DIV MENU*/
+.menu{
+	width: 100%;
+	height: 40px;
+	background: black;
+	border-radius: 6px;
+}
+
+
+/**DIV CORPO*/
+.corpo{
+	width: 100%;
+	height: 2500px;
+	text-align: center;
+	color: white;
+	margin: auto;
+	border-radius: 6px;
+	font-size: 14px;
+}
+.superior{
+	width: 100%;
+	height: 800px;
+	margin-top: -1%;
+}
+
+.linha1{
+	width: 100%;
+	height: 500px;
+}
+.confiaemdeusdiv{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.perdaodiv{
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+
+
+.linha2{
+	width: 100%;
+	height: 500px;
+}
+.fediv{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.oracaodiv{
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+
+
+
+
+
+/*Rodo pe*/
+.footer{
+	background: black;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	color: white;
+	margin:auto;
+	border-radius: 6px;
+	font-size: 12px;
+	padding-top: 100px;
+}
+.direitos{
+	color: white;
+	font-size: 11px;
+	text-align: center;
+	padding-top: 200px;
 }
